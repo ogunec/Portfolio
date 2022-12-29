@@ -1,0 +1,17 @@
+C:\Users\ogune\Desktop\Asp.NET Core\Projects\Portfolio\Portfolio.DAL\bin\Debug\net6.0\Portfolio.DAL.deps.json
+C:\Users\ogune\Desktop\Asp.NET Core\Projects\Portfolio\Portfolio.DAL\bin\Debug\net6.0\Portfolio.DAL.runtimeconfig.json
+C:\Users\ogune\Desktop\Asp.NET Core\Projects\Portfolio\Portfolio.DAL\bin\Debug\net6.0\Portfolio.DAL.dll
+C:\Users\ogune\Desktop\Asp.NET Core\Projects\Portfolio\Portfolio.DAL\bin\Debug\net6.0\Portfolio.DAL.pdb
+C:\Users\ogune\Desktop\Asp.NET Core\Projects\Portfolio\Portfolio.DAL\bin\Debug\net6.0\Portfolio.MODEL.dll
+C:\Users\ogune\Desktop\Asp.NET Core\Projects\Portfolio\Portfolio.DAL\bin\Debug\net6.0\Portfolio.MODEL.pdb
+C:\Users\ogune\Desktop\Asp.NET Core\Projects\Portfolio\Portfolio.DAL\obj\Debug\net6.0\Portfolio.DAL.csproj.AssemblyReference.cache
+C:\Users\ogune\Desktop\Asp.NET Core\Projects\Portfolio\Portfolio.DAL\obj\Debug\net6.0\Portfolio.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ogune\Desktop\Asp.NET Core\Projects\Portfolio\Portfolio.DAL\obj\Debug\net6.0\Portfolio.DAL.AssemblyInfoInputs.cache
+C:\Users\ogune\Desktop\Asp.NET Core\Projects\Portfolio\Portfolio.DAL\obj\Debug\net6.0\Portfolio.DAL.AssemblyInfo.cs
+C:\Users\ogune\Desktop\Asp.NET Core\Projects\Portfolio\Portfolio.DAL\obj\Debug\net6.0\Portfolio.DAL.csproj.CoreCompileInputs.cache
+C:\Users\ogune\Desktop\Asp.NET Core\Projects\Portfolio\Portfolio.DAL\obj\Debug\net6.0\Portfolio.DAL.csproj.CopyComplete
+C:\Users\ogune\Desktop\Asp.NET Core\Projects\Portfolio\Portfolio.DAL\obj\Debug\net6.0\Portfolio.DAL.dll
+C:\Users\ogune\Desktop\Asp.NET Core\Projects\Portfolio\Portfolio.DAL\obj\Debug\net6.0\refint\Portfolio.DAL.dll
+C:\Users\ogune\Desktop\Asp.NET Core\Projects\Portfolio\Portfolio.DAL\obj\Debug\net6.0\Portfolio.DAL.pdb
+C:\Users\ogune\Desktop\Asp.NET Core\Projects\Portfolio\Portfolio.DAL\obj\Debug\net6.0\Portfolio.DAL.genruntimeconfig.cache
+C:\Users\ogune\Desktop\Asp.NET Core\Projects\Portfolio\Portfolio.DAL\obj\Debug\net6.0\ref\Portfolio.DAL.dll

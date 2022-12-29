@@ -1,0 +1,12 @@
+C:\Users\ogune\Desktop\Asp.NET Core\Projects\Portfolio\Portfolio.MODEL\bin\Debug\net6.0\Portfolio.MODEL.deps.json
+C:\Users\ogune\Desktop\Asp.NET Core\Projects\Portfolio\Portfolio.MODEL\bin\Debug\net6.0\Portfolio.MODEL.dll
+C:\Users\ogune\Desktop\Asp.NET Core\Projects\Portfolio\Portfolio.MODEL\bin\Debug\net6.0\Portfolio.MODEL.pdb
+C:\Users\ogune\Desktop\Asp.NET Core\Projects\Portfolio\Portfolio.MODEL\obj\Debug\net6.0\Portfolio.MODEL.csproj.AssemblyReference.cache
+C:\Users\ogune\Desktop\Asp.NET Core\Projects\Portfolio\Portfolio.MODEL\obj\Debug\net6.0\Portfolio.MODEL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ogune\Desktop\Asp.NET Core\Projects\Portfolio\Portfolio.MODEL\obj\Debug\net6.0\Portfolio.MODEL.AssemblyInfoInputs.cache
+C:\Users\ogune\Desktop\Asp.NET Core\Projects\Portfolio\Portfolio.MODEL\obj\Debug\net6.0\Portfolio.MODEL.AssemblyInfo.cs
+C:\Users\ogune\Desktop\Asp.NET Core\Projects\Portfolio\Portfolio.MODEL\obj\Debug\net6.0\Portfolio.MODEL.csproj.CoreCompileInputs.cache
+C:\Users\ogune\Desktop\Asp.NET Core\Projects\Portfolio\Portfolio.MODEL\obj\Debug\net6.0\Portfolio.MODEL.dll
+C:\Users\ogune\Desktop\Asp.NET Core\Projects\Portfolio\Portfolio.MODEL\obj\Debug\net6.0\refint\Portfolio.MODEL.dll
+C:\Users\ogune\Desktop\Asp.NET Core\Projects\Portfolio\Portfolio.MODEL\obj\Debug\net6.0\Portfolio.MODEL.pdb
+C:\Users\ogune\Desktop\Asp.NET Core\Projects\Portfolio\Portfolio.MODEL\obj\Debug\net6.0\ref\Portfolio.MODEL.dll
