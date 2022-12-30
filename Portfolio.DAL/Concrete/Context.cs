@@ -10,6 +10,10 @@ namespace Portfolio.DAL.Concrete
 {
     public class Context : DbContext
     {
+        public Context(DbContextOptions<Context> options) : base(options)
+        {
+
+        }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) //Kullandığımız veritabanı ile ilgili configurasyonları yaptığımız metot
         {
             optionsBuilder.UseSqlServer("server=.;database=PortfolioDB;uid=sa;pwd=12345");

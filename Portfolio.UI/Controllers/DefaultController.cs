@@ -8,10 +8,14 @@ namespace Portfolio.UI.Controllers
         {
             return View();
         }
-
-        public IActionResult Add()
+        
+        public PartialViewResult HeaderPartial()
         {
-            return View();
+            return PartialView();
+        }
+        public PartialViewResult NavbarPartial()
+        {
+            return PartialView();
         }
     }
 }
