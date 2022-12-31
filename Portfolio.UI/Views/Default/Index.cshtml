@@ -10,88 +10,12 @@
 <partial name="HeaderPartial" />
 <body id="top">
     <partial name="NavbarPartial" />
-    <br />
-    @await Component.InvokeAsync("FeatureList")
+    
     <div class="page-content">
         <div id="content">
-            <header>
-                <div class="cover bg-light">
-                    <div class="container px-3">
-                        <div class="row">
-                            <div class="col-lg-6 p-2"><img class="img-fluid" src="~/Template/images/illustrations/hello3.svg" alt="hello" /></div>
-                            <div class="col-lg-6">
-                                <div class="mt-5">
-                                    <p class="lead text-uppercase mb-1">Hello!</p>
-                                    <h1 class="intro-title marker" data-aos="fade-left" data-aos-delay="50">I’m Walter Patterson</h1>
-                                    <p class="lead fw-normal mt-3" data-aos="fade-up" data-aos-delay="100">Web Developer & Mobile Application Developer</p>
-                                    <div class="social-nav" data-aos="fade-up" data-aos-delay="200">
-                                        <nav role="navigation">
-                                            <ul class="nav justify-content-left">
-                                                <li class="nav-item"><a class="nav-link" href="https://twitter.com/templateflip" title="Twitter"><i class="fab fa-twitter"></i><span class="menu-title sr-only">Twitter</span></a></li>
-                                                <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/templateflip" title="Facebook"><i class="fab fa-facebook"></i><span class="menu-title sr-only">Facebook</span></a></li>
-                                                <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/templateflip" title="Instagram"><i class="fab fa-instagram"></i><span class="menu-title sr-only">Instagram</span></a></li>
-                                                <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/" title="LinkedIn"><i class="fab fa-linkedin"></i><span class="menu-title sr-only">LinkedIn</span></a></li>
-                                                <li class="nav-item"><a class="nav-link" href="https://www.behance.net/templateflip" title="Behance"><i class="fab fa-behance"></i><span class="menu-title sr-only">Behance</span></a></li>
-                                            </ul>
-                                        </nav>
-                                    </div>
-                                    <div class="mt-3" data-aos="fade-up" data-aos-delay="200"><a class="btn btn-primary shadow-sm mt-1 hover-effect" href="#contact">Get In Touch <i class="fas fa-arrow-right"></i></a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="wave-bg"></div>
-            </header>
-            <div class="section pt-4 px-3 px-lg-4" id="about">
-                <div class="container-narrow">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <h2 class="h4 my-2">Hello! I’m Walter Patterson.</h2>
-                            <p>I am passionate about UI/UX design and Web Design. I am a skilled front-end developer and master of graphic design tools such as Photoshop and Sketch. I am a quick learner and a team worker that gets the job done. I can easily capitalize on low hanging fruits and quickly maximize timely deliverables for real-time schemas.</p>
-                            <div class="row mt-3">
-                                <div class="col-sm-2">
-                                    <div class="pb-1">Age:</div>
-                                </div>
-                                <div class="col-sm-10">
-                                    <div class="pb-1 fw-bolder">28</div>
-                                </div>
-                                <div class="col-sm-2">
-                                    <div class="pb-1">Email:</div>
-                                </div>
-                                <div class="col-sm-10">
-                                    <div class="pb-1 fw-bolder">walter@company.com</div>
-                                </div>
-                                <div class="col-sm-2">
-                                    <div class="pb-1">Skype:</div>
-                                </div>
-                                <div class="col-sm-10">
-                                    <div class="pb-1 fw-bolder">username@skype.com</div>
-                                </div>
-                                <div class="col-sm-2">
-                                    <div class="pb-1">Phone:</div>
-                                </div>
-                                <div class="col-sm-10">
-                                    <div class="pb-1 fw-bolder">+0718-111-0011</div>
-                                </div>
-                                <div class="col-sm-2">
-                                    <div class="pb-1">Address:</div>
-                                </div>
-                                <div class="col-sm-10">
-                                    <div class="pb-1 fw-bolder">New Delhi, India</div>
-                                </div>
-                                <div class="col-sm-2">
-                                    <div class="pb-1">Staus:</div>
-                                </div>
-                                <div class="col-sm-10">
-                                    <div class="pb-1 fw-bolder">Available</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-5 offset-md-1" data-aos="fade-left" data-aos-delay="100"><img class="avatar img-fluid mt-2" src="~/Template/images/avatar.jpg" width="400" height="400" alt="Walter Patterson" /></div>
-                    </div>
-                </div>
-            </div>
+            @await Component.InvokeAsync("FeatureList")
+
+            @await Component.InvokeAsync("AboutList")
             <div class="section px-3 px-lg-4 pt-5" id="services">
                 <div class="container-narrow">
                     <div class="text-center mb-5">

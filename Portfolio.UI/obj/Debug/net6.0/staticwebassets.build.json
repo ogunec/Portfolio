@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wPvhvDj6yg/j/IoaCgi1auhw2TLNf3amlXg7cIk6PrI=",
+  "Hash": "Vt/EWsgOi7thAsPesp55CQqrE7395VedTnTjFN4H4OQ=",
   "Source": "Portfolio.UI",
   "BasePath": "_content/Portfolio.UI",
   "Mode": "Default",
@@ -2089,6 +2089,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Template\\images\\marker.svg"
+    },
+    {
+      "Identity": "C:\\Users\\ogune\\Desktop\\Asp.NET Core\\Projects\\Portfolio\\Portfolio.UI\\wwwroot\\Template\\images\\ogunec.jpeg",
+      "SourceId": "Portfolio.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ogune\\Desktop\\Asp.NET Core\\Projects\\Portfolio\\Portfolio.UI\\wwwroot\\",
+      "BasePath": "_content/Portfolio.UI",
+      "RelativePath": "Template/images/ogunec.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Template\\images\\ogunec.jpeg"
     },
     {
       "Identity": "C:\\Users\\ogune\\Desktop\\Asp.NET Core\\Projects\\Portfolio\\Portfolio.UI\\wwwroot\\Template\\images\\portfolio\\1.jpg",
