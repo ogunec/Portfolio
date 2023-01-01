@@ -1,0 +1,22 @@
+﻿@model List<Service>
+
+<div class="section px-3 px-lg-4 pt-5" id="services">
+	<div class="container-narrow">
+		<div class="text-center mb-5">
+			<h2 class="marker marker-center">Hizmetler</h2>
+		</div>
+		<div class="text-center">
+			<p class="mx-auto mb-3" style="max-width:600px"> Sahip olduğum deneyimle aşağıda yer alan konu başlıklarında hizmetler sunabilirim. Sunduğum hizmetler hakkında detaylı bilgi için iletişim bölümünden ulaşabilirsiniz.</p>
+		</div>
+		<div class="row py-3">
+			@foreach (var item in Model)
+			{
+				<div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="100">
+				<img class="mb-2" src="@item.ImageUrl" width="96" height="96" alt="web design" />
+				<div class="h5">@item.Title</div>
+			</div>
+			}
+		</div>
+	</div>
+</div>
+
