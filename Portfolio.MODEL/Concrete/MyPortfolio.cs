@@ -13,5 +13,7 @@ namespace Portfolio.MODEL.Concrete
         public int MyPortfolioID { get; set; }
         public string Name { get; set; }
         public string ImageUrl { get; set; }
+        public string SmallImageUrl { get; set; }
+        public string ProjectUrl { get; set; }
     }
 }
