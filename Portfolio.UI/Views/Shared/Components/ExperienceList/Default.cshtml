@@ -13,14 +13,13 @@
                     <div class="card-header px-3 py-2">
                         <div class="d-flex justify-content-between">
                             <div>
-                                <h3 class="h5 mb-1">UI/UX Design</h3>
-                                <div class="text-muted text-small">Designerr Inc. <small>(2012-2014)</small></div>
-                            </div><img src="~/Template/images/services/ui-ux.svg" width="48" height="48" alt="ui-ux" />
+                                <h3 class="h5 mb-1">@item.Name</h3>
+                                <div class="text-muted text-small">@item.Company <small>(@item.Date)</small></div>
+                            </div><img src="@item.ImageUrl" width="48" height="48" alt="icon" />
                         </div>
                     </div>
                     <div class="card-body px-3 py-2">
-                        <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
-                        <p>Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+                            <p>@item.Description</p>
                     </div>
                 </div>
             </div>
