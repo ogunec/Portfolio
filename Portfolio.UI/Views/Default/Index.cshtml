@@ -30,87 +30,16 @@
             <div class="section px-2 px-lg-4 pb-4 pt-5 mb-5" id="contact">
                 <div class="container-narrow">
                     <div class="text-center mb-5">
-                        <h2 class="marker marker-center">Contact Me</h2>
+                        <h2 class="marker marker-center">İletişim</h2>
                     </div>
                     <div class="row">
-                        <div class="col-md-6" data-aos="zoom-in" data-aos-delay="100">
-                            <div class="bg-light my-2 p-3 pt-2">
-                                <form action="https://formspree.io/your@email.com"
-                                      method="POST">
-                                    <div class="form-group my-2">
-                                        <label for="name" class="form-label fw-bolder">Name</label>
-                                        <input class="form-control" type="text" id="name" name="name" required>
-                                    </div>
-                                    <div class="form-group my-2">
-                                        <label for="email" class="form-label fw-bolder">Email</label>
-                                        <input class="form-control" type="email" id="email" name="_replyto" required>
-                                    </div>
-                                    <div class="form-group my-2">
-                                        <label for="message" class="form-label fw-bolder">Message</label>
-                                        <textarea class="form-control" style="resize: none;" id="message" name="message" rows="4" required></textarea>
-                                    </div>
-                                    <button class="btn btn-primary mt-2" type="submit">Send</button>
-                                </form>
-                            </div>
-                        </div>
-                        <div class="col-md-6" data-aos="fade-left" data-aos-delay="300">
-                            <div class="mt-3 px-1">
-                                <div class="h5">Let’s talk how I can help you!</div>
-                                <p>If you like my work and want to avail my services then drop me a message using the contact form. </p>
-                                <p>Or get in touch using my email, skype or my contact number.</p>
-                                <p>See you!</p>
-                            </div>
-                            <div class="mt-53 px-1">
-                                <div class="row">
-                                    <div class="col-sm-2">
-                                        <div class="pb-1">Email:</div>
-                                    </div>
-                                    <div class="col-sm-10">
-                                        <div class="pb-1 fw-bolder">walter@company.com</div>
-                                    </div>
-                                    <div class="col-sm-2">
-                                        <div class="pb-1">Skype:</div>
-                                    </div>
-                                    <div class="col-sm-10">
-                                        <div class="pb-1 fw-bolder">username@skype.com</div>
-                                    </div>
-                                    <div class="col-sm-2">
-                                        <div class="pb-1">Phone:</div>
-                                    </div>
-                                    <div class="col-sm-10">
-                                        <div class="pb-1 fw-bolder">+0718-111-0011</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <partial name="SendMessage"/>
+
+                        @await Component.InvokeAsync("ContactDetails")
                     </div>
                 </div>
             </div>
-            <footer class="pt-4 pb-4 text-center bg-light">
-                <div class="container">
-                    <div class="my-3">
-                        <div class="h4">Walter Patterson</div>
-                        <p>Web Developer & Mobile Application Developer</p>
-                        <div class="social-nav">
-                            <nav role="navigation">
-                                <ul class="nav justify-content-center">
-                                    <li class="nav-item"><a class="nav-link" href="https://twitter.com/templateflip" title="Twitter"><i class="fab fa-twitter"></i><span class="menu-title sr-only">Twitter</span></a></li>
-                                    <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/templateflip" title="Facebook"><i class="fab fa-facebook"></i><span class="menu-title sr-only">Facebook</span></a></li>
-                                    <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/templateflip" title="Instagram"><i class="fab fa-instagram"></i><span class="menu-title sr-only">Instagram</span></a></li>
-                                    <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/" title="LinkedIn"><i class="fab fa-linkedin"></i><span class="menu-title sr-only">LinkedIn</span></a></li>
-                                    <li class="nav-item"><a class="nav-link" href="https://www.behance.net/templateflip" title="Behance"><i class="fab fa-behance"></i><span class="menu-title sr-only">Behance</span></a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                    <div class="text-small text-secondary">
-                        <div class="mb-1">&copy; Super Folio. All rights reserved.</div>
-                        <div>
-                            <!-- Make sure to buy a license for the template before removing the line below. Buy license on https://templateflip.com/ -->Design - <a href="https://templateflip.com/" target="_blank">TemplateFlip</a>
-                        </div>
-                    </div>
-                </div>
-            </footer>
+            <partial name="FooterPartial" />
         </div>
     </div>
     <div id="scrolltop"><a class="btn btn-secondary" href="#top"><span class="icon"><i class="fas fa-angle-up fa-x"></i></span></a></div>
