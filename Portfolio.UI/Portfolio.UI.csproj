@@ -7,6 +7,97 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\yargs-parser\LICENSE.txt" />
+    <Content Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\yargs\locales\be.json" />
+    <Content Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\yargs\locales\de.json" />
+    <Content Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\yargs\locales\en.json" />
+    <Content Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\yargs\locales\es.json" />
+    <Content Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\yargs\locales\fr.json" />
+    <Content Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\yargs\locales\hi.json" />
+    <Content Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\yargs\locales\hu.json" />
+    <Content Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\yargs\locales\id.json" />
+    <Content Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\yargs\locales\it.json" />
+    <Content Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\yargs\locales\ja.json" />
+    <Content Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\yargs\locales\ko.json" />
+    <Content Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\yargs\locales\nb.json" />
+    <Content Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\yargs\locales\nl.json" />
+    <Content Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\yargs\locales\pirate.json" />
+    <Content Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\yargs\locales\pl.json" />
+    <Content Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\yargs\locales\pt.json" />
+    <Content Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\yargs\locales\pt_BR.json" />
+    <Content Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\yargs\locales\ru.json" />
+    <Content Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\yargs\locales\th.json" />
+    <Content Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\yargs\locales\tr.json" />
+    <Content Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\yargs\locales\zh_CN.json" />
+    <Content Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\yargs\locales\zh_TW.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\argon-dashboard-master\.github\workflows\main.yml" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\arr-diff\index.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\arr-union\index.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\array-slice\index.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\extend-shallow\index.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\glob-watcher\index.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\gulp\bin\gulp.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\gulp\index.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\gulp\node_modules\gulp-cli\bin\gulp.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\gulp\node_modules\gulp-cli\completion\bash" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\gulp\node_modules\gulp-cli\completion\fish" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\gulp\node_modules\gulp-cli\completion\powershell" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\gulp\node_modules\gulp-cli\completion\zsh" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\gulp\node_modules\gulp-cli\gulp.1" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\gulp\node_modules\gulp-cli\index.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\gulp\node_modules\gulp-cli\lib\shared\ansi.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\gulp\node_modules\gulp-cli\lib\shared\cli-options.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\gulp\node_modules\gulp-cli\lib\shared\completion.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\gulp\node_modules\gulp-cli\lib\shared\config\cli-flags.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\gulp\node_modules\gulp-cli\lib\shared\config\env-flags.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\gulp\node_modules\gulp-cli\lib\shared\config\load-files.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\gulp\node_modules\gulp-cli\lib\shared\exit.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\gulp\node_modules\gulp-cli\lib\shared\get-blacklist.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\gulp\node_modules\gulp-cli\lib\shared\log\blacklist-error.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\gulp\node_modules\gulp-cli\lib\shared\log\copy-tree.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\gulp\node_modules\gulp-cli\lib\shared\log\tasks.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\gulp\node_modules\gulp-cli\lib\shared\log\to-console.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\gulp\node_modules\gulp-cli\lib\shared\log\verify.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\gulp\node_modules\gulp-cli\lib\shared\make-title.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\gulp\node_modules\gulp-cli\lib\shared\register-exports.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\gulp\node_modules\gulp-cli\lib\shared\tildify.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\gulp\node_modules\gulp-cli\lib\shared\verify-dependencies.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\gulp\node_modules\gulp-cli\lib\versioned\^3.7.0\format-error.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\gulp\node_modules\gulp-cli\lib\versioned\^3.7.0\index.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\gulp\node_modules\gulp-cli\lib\versioned\^3.7.0\log\events.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\gulp\node_modules\gulp-cli\lib\versioned\^3.7.0\log\tasks-simple.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\gulp\node_modules\gulp-cli\lib\versioned\^3.7.0\task-tree.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\gulp\node_modules\gulp-cli\lib\versioned\^4.0.0-alpha.1\index.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\gulp\node_modules\gulp-cli\lib\versioned\^4.0.0-alpha.2\index.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\gulp\node_modules\gulp-cli\lib\versioned\^4.0.0\format-error.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\gulp\node_modules\gulp-cli\lib\versioned\^4.0.0\index.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\gulp\node_modules\gulp-cli\lib\versioned\^4.0.0\log\events.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\gulp\node_modules\gulp-cli\lib\versioned\^4.0.0\log\get-task.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\gulp\node_modules\gulp-cli\lib\versioned\^4.0.0\log\sync-task.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\gulp\node_modules\gulp-cli\lib\versioned\^4.0.0\log\tasks-simple.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\kind-of\index.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\plugin-error\index.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\yargs-parser\index.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\yargs-parser\lib\tokenize-arg-string.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\yargs\completion.sh.hbs" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\yargs\index.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\yargs\lib\apply-extends.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\yargs\lib\argsert.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\yargs\lib\assign.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\yargs\lib\command.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\yargs\lib\completion.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\yargs\lib\levenshtein.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\yargs\lib\obj-filter.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\yargs\lib\usage.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\yargs\lib\validation.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\yargs\lib\yerror.js" />
+    <None Include="wwwroot\argon-dashboard-master\assets\vendor\gulp-copy\node_modules\yargs\yargs.js" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.12" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.12">
       <PrivateAssets>all</PrivateAssets>
