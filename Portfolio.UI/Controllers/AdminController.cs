@@ -8,5 +8,10 @@ namespace Portfolio.UI.Controllers
 		{
 			return View();
 		}
+
+		public PartialViewResult SideBar()
+		{
+			return PartialView();
+		}
 	}
 }
