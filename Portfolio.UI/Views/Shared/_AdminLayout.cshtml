@@ -52,7 +52,7 @@
         </a>
       </div>
 
-      <partial name="SideBar" />
+      <partial name="~/Views/Admin/SideBar.cshtml" />
 
     </div>
   </nav>
@@ -320,10 +320,8 @@
     <!-- Page content -->
     <div class="container-fluid mt--6">
       <div class="row">
-        <div class="col">
-          <div class="card border-0">
+        <div class="col">  
             @RenderBody();
-          </div>
         </div>
       </div>
       <!-- Footer -->
