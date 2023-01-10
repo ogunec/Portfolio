@@ -9,9 +9,29 @@ namespace Portfolio.UI.Controllers
 			return View();
 		}
 
-		public PartialViewResult SideBar()
+		public PartialViewResult SidebarPartial()
 		{
 			return PartialView();
 		}
-	}
+
+        public PartialViewResult FooterPartial()
+        {
+            return PartialView();
+        }
+
+        public PartialViewResult NavbarPartial()
+        {
+            return PartialView();
+        }
+
+        public PartialViewResult HeadPartial()
+        {
+            return PartialView();
+        }
+
+        public PartialViewResult ScriptPartial()
+        {
+            return PartialView();
+        }
+    }
 }
