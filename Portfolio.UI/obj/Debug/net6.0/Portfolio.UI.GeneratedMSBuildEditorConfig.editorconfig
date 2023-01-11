@@ -31,6 +31,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTmF2YmFyUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/ogune/Desktop/Asp.NET Core/Projects/Portfolio/Portfolio.UI/Views/Admin/NavigationPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTmF2aWdhdGlvblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ogune/Desktop/Asp.NET Core/Projects/Portfolio/Portfolio.UI/Views/Admin/ScriptPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2NyaXB0UGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -113,6 +117,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/ogune/Desktop/Asp.NET Core/Projects/Portfolio/Portfolio.UI/Views/Skill/AddSkill.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2tpbGxcQWRkU2tpbGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ogune/Desktop/Asp.NET Core/Projects/Portfolio/Portfolio.UI/Views/Skill/DeleteSkill.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2tpbGxcRGVsZXRlU2tpbGwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ogune/Desktop/Asp.NET Core/Projects/Portfolio/Portfolio.UI/Views/Skill/Index.cshtml]

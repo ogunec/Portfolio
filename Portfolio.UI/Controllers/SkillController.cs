@@ -27,5 +27,18 @@ namespace Portfolio.UI.Controllers
             _unitOfWork.Skill.Add(skill);
             return RedirectToAction("Index","Skill");
         }
+
+        [HttpGet]
+        public IActionResult DeleteSkill(int id)
+        {
+            var SkillFromDb = _unitOfWork.Skill.GetById(id);
+            return View(SkillFromDb);
+        }
+        [HttpPost]
+        public IActionResult DeleteSkill(Skill obj)
+        {
+            _unitOfWork.Skill.Delete(obj);
+            return RedirectToAction("Index", "Skill");
+        }
     }
 }

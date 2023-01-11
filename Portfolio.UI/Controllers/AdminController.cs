@@ -33,5 +33,10 @@ namespace Portfolio.UI.Controllers
         {
             return PartialView();
         }
+
+        public PartialViewResult NavigationPartial()
+        {
+            return PartialView();
+        }
     }
 }

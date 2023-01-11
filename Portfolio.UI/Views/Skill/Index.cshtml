@@ -1,11 +1,11 @@
 ﻿@model List<Skill>
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Yetenekler";
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
 <div class="card-header border-0">
-    <h3 class="mb-0">Yetenekler</h3>
+    <h2 class="mb-0">Yetenek Tablosu</h2>
 </div>
 <!-- Light table -->
 <div class="table-responsive">
@@ -36,7 +36,7 @@
                             </div>
                         </div>
                     </td>
-                    <td><a href="#" class="btn btn-danger">Sil</a></td>
+                    <td><a asp-action="DeleteSkill" asp-controller="Skill" asp-route-id="@item.SkillID" class="btn btn-danger">Sil</a></td>
                     <td><a href="#" class="btn btn-success">Güncelle</a></td>
                 </tr>
             }

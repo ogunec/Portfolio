@@ -1,0 +1,26 @@
+﻿@model Skill
+
+@{
+	ViewData["Title"] = "Yetenek Sil";
+	Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="card-header border-0">
+	<h3 class="mb-0">Yetenek Silme Sayfası</h3>
+</div>
+<br />
+<form method="post">
+	<div>
+		<input asp-for="SkillID" hidden />
+		<div class="mb-3">
+			<label asp-for="Title" class="form-label"><strong>Yetenek</strong></label>
+			<input asp-for="Title" disabled class="form-control" />
+		</div>
+		<div class="mb-3">
+			<label asp-for="Value" class="control-label"><strong>Oran</strong></label>
+			<input asp-for="Value" disabled class="form-control" />
+		</div>
+		<button class="btn btn-danger" type="submit" asp-action="DeleteSkill" asp-controller="Skill">Sil</button>
+	</div>	
+</form>
+
