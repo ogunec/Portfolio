@@ -37,7 +37,7 @@
                         </div>
                     </td>
                     <td><a asp-action="DeleteSkill" asp-controller="Skill" asp-route-id="@item.SkillID" class="btn btn-danger">Sil</a></td>
-                    <td><a href="#" class="btn btn-success">Güncelle</a></td>
+                    <td><a asp-action="UpdateSkill" asp-controller="Skill" asp-route-id="@item.SkillID" class="btn btn-success">Güncelle</a></td>
                 </tr>
             }
         </tbody>
