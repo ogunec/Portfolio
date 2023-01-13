@@ -1,0 +1,40 @@
+﻿@model List<Experience>
+@{
+    ViewData["Title"] = "Deneyim";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="card-header border-0">
+<h2 class="mb-0">Deneyimler</h2>
+</div>
+<!-- Light table -->
+<div class="table-responsive">
+    <table class="table align-items-center table-flush">
+        <thead class="thead-light">
+            <tr>
+                <th scope="col" class="sort" data-sort="name">#</th>
+                <th scope="col" class="sort" data-sort="budget">Başlık</th>
+                <th scope="col" class="sort" data-sort="budget">Şirket</th>
+                <th scope="col" class="sort" data-sort="status">Tarih</th>
+                <th scope="col">Sil</th>
+                <th scope="col" class="sort" data-sort="completion">Güncelle</th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody class="list">
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <th>@item.ExperienceID</th>
+                    <th>@item.Name</th>
+                    <td>@item.Company</td>
+                    <td>@item.Date</td>
+                    <td><a asp-action="Delete" asp-controller="Experience" asp-route-id="@item.ExperienceID" class="btn btn-danger">Sil</a></td>
+                    <td><a asp-action="Edit" asp-controller="Experience" asp-route-id="@item.ExperienceID" class="btn btn-success">Güncelle</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <a asp-action="Add" asp-controller="Experience" class="btn btn-primary">Ekle</a>
+</div>
+
