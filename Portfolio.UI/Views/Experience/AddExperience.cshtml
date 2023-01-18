@@ -1,0 +1,39 @@
+﻿@model Experience
+@{
+    ViewData["Title"] = "Deneyim Ekle";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="card-header border-0">
+    <h3 class="mb-0">Deneiyim Ekleme Sayfası</h3>
+</div>
+<br />
+<form method="post" class="form-group">
+	<div class="mb-3">
+		<label class="form-label" asp-for="Name"><strong>Deneyim</strong></label>
+		<input type="text" class="form-control" asp-for="Name" />
+		<span asp-validation-for="Name"></span>
+	</div>
+	<div class="mb-3">
+		<label asp-for="Company" class="control-label"><strong>Şirket</strong></label>
+		<input type="text" class="form-control" asp-for="Company" />
+		<span asp-validation-for="Company"></span>
+	</div>
+	<div class="mb-3">
+		<label asp-for="Date" class="control-label"><strong>Tarih</strong></label>
+		<input type="text" class="form-control" asp-for="Date" />
+		<span asp-validation-for="Date"></span>
+	</div>
+	<div class="mb-3">
+		<label asp-for="ImageUrl" class="control-label"><strong>Resim</strong></label>
+		<input type="text" class="form-control" asp-for="ImageUrl" />
+		<span asp-validation-for="ImageUrl"></span>
+	</div>
+	<div class="mb-3">
+		<label asp-for="Description" class="control-label"><strong>Açıklama</strong></label>
+		<input type="text" class="form-control" asp-for="Description" />
+		<span asp-validation-for="Description"></span>
+	</div>
+	<div><button class="btn btn-primary" type="submit">Kaydet</button></div>
+</form>
+

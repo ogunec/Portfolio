@@ -29,12 +29,12 @@
                     <th>@item.Name</th>
                     <td>@item.Company</td>
                     <td>@item.Date</td>
-                    <td><a asp-action="Delete" asp-controller="Experience" asp-route-id="@item.ExperienceID" class="btn btn-danger">Sil</a></td>
-                    <td><a asp-action="Edit" asp-controller="Experience" asp-route-id="@item.ExperienceID" class="btn btn-success">Güncelle</a></td>
+                    <td><a asp-action="DeleteExperience" asp-controller="Experience" asp-route-id="@item.ExperienceID" class="btn btn-danger">Sil</a></td>
+                    <td><a asp-action="EditExperience" asp-controller="Experience" asp-route-id="@item.ExperienceID" class="btn btn-success">Güncelle</a></td>
                 </tr>
             }
         </tbody>
     </table>
-    <a asp-action="Add" asp-controller="Experience" class="btn btn-primary">Ekle</a>
+    <a asp-action="AddExperience" asp-controller="Experience" class="btn btn-primary">Ekle</a>
 </div>
 
