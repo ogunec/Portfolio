@@ -15,5 +15,7 @@ namespace Portfolio.MODEL.Concrete
         public string ImageUrl { get; set; }
         public string SmallImageUrl { get; set; }
         public string ProjectUrl { get; set; }
+        public bool Status { get; set; }
+        public int Progress { get; set; }
     }
 }
