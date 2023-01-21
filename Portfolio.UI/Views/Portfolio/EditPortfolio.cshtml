@@ -1,0 +1,45 @@
+﻿@model MyPortfolio
+@{
+    ViewData["Title"] = "Proje Güncelle";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="card-header border-0">
+	<h3 class="mb-0">Proje Güncelleme Sayfası</h3>
+</div>
+<br />
+<form method="post" class="form-group">
+	<input type="hidden" asp-for="MyPortfolioID" />
+	<div class="mb-3">
+		<label class="form-label" asp-for="Name"><strong>Proje</strong></label>
+		<input type="text" class="form-control" asp-for="Name" />
+		<span asp-validation-for="Name"></span>
+	</div>
+	<div class="mb-3">
+		<label asp-for="ProjectUrl" class="control-label"><strong>Proje Linki</strong></label>
+		<input type="text" class="form-control" asp-for="ProjectUrl" />
+		<span asp-validation-for="ProjectUrl"></span>
+	</div>
+	<div class="mb-3">
+		<label asp-for="Status" class="control-label"><strong>Durum</strong></label>
+		<input type="text" class="form-control" asp-for="Status" />
+		<span asp-validation-for="Status"></span>
+	</div>
+	<div class="mb-3">
+		<label asp-for="Progress" class="control-label"><strong>İlerleme Durumu</strong></label>
+		<input type="text" class="form-control" asp-for="Progress" />
+		<span asp-validation-for="Progress"></span>
+	</div>
+	<div class="mb-3">
+		<label asp-for="ImageUrl" class="control-label"><strong>Büyük Resim</strong></label>
+		<input type="text" class="form-control" asp-for="ImageUrl" />
+		<span asp-validation-for="ImageUrl"></span>
+	</div>
+	<div class="mb-3">
+		<label asp-for="SmallImageUrl" class="control-label"><strong>Küçük Resim</strong></label>
+		<input type="text" class="form-control" asp-for="SmallImageUrl" />
+		<span asp-validation-for="SmallImageUrl"></span>
+	</div>
+	<div><button class="btn btn-primary" type="submit">Güncelle</button></div>
+</form>
+

@@ -24,8 +24,40 @@ namespace Portfolio.UI.Controllers
         [HttpPost]
         public IActionResult AddPortfolio(MyPortfolio portfolio)
         {
-            _unitOfWork.MyPortfolio.Add(portfolio);
-            return RedirectToAction("Index","Portfolio");
+            if (ModelState.IsValid)
+            {
+                _unitOfWork.MyPortfolio.Add(portfolio);
+                return RedirectToAction("Index", "Portfolio");
+            }
+            else
+            {
+                return View();
+            }
+            
+        }
+        [HttpGet]
+        public IActionResult EditPortfolio(int id)
+        {
+            MyPortfolio SelectedPortfolio = _unitOfWork.MyPortfolio.GetById(id);
+            return View(SelectedPortfolio);
+        }
+        [HttpPost]
+        public IActionResult EditPortfolio(MyPortfolio portfolio)
+        {
+            _unitOfWork.MyPortfolio.Update(portfolio);
+            return RedirectToAction("Index", "Portfolio");
+        }
+        [HttpGet]
+        public IActionResult DeletePortfolio(int id)
+        {
+            MyPortfolio SelectedPortfolio = _unitOfWork.MyPortfolio.GetById(id);
+            return View(SelectedPortfolio);
+        }
+        [HttpPost]
+        public IActionResult DeletePortfolio(MyPortfolio portfolio)
+        {
+            _unitOfWork.MyPortfolio.Delete(portfolio);
+            return RedirectToAction("Index", "Portfolio");
         }
     }
 }

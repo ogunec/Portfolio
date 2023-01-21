@@ -71,17 +71,9 @@
                                         </div>
                                     </div>
                                 </td>
-                                <td class="text-right">
-                                    <div class="dropdown">
-                                        <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            <i class="fas fa-ellipsis-v"></i>
-                                        </a>
-                                        <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
-                                            <a class="dropdown-item" href="#">Action</a>
-                                            <a class="dropdown-item" href="#">Another action</a>
-                                            <a class="dropdown-item" href="#">Something else here</a>
-                                        </div>
-                                    </div>
+                                <td>
+									<a class="btn btn-danger" asp-action="DeletePortfolio" asp-controller="Portfolio" asp-route-id="@item.MyPortfolioID">Sil</a>
+									<a class="btn btn-success" asp-action="EditPortfolio" asp-controller="Portfolio" asp-route-id="@item.MyPortfolioID">Güncelle</a>
                                 </td>
                             </tr>
 
