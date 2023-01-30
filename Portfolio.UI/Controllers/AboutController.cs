@@ -1,28 +1,27 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Portfolio.BLL.Abstract;
-using Portfolio.BLL.Repository;
 using Portfolio.MODEL.Concrete;
 
 namespace Portfolio.UI.Controllers
 {
-    public class FeatureController : Controller
+    public class AboutController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
-        public FeatureController(IUnitOfWork unitOfWork)
+        public AboutController(IUnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;
         }
         [HttpGet]
         public IActionResult Index()
         {
-            var values = _unitOfWork.Feature.GetById(1);
+            var values = _unitOfWork.About.GetById(3);
             return View(values);
         }
         [HttpPost]
-        public IActionResult Index(Feature feature)
+        public IActionResult Index(About about)
         {
-            _unitOfWork.Feature.Update(feature);
-            return RedirectToAction("Index","Default");
+            _unitOfWork.About.Update(about);
+            return RedirectToAction("Index", "Default");
         }
     }
 }

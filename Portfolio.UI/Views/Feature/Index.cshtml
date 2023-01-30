@@ -1,8 +1,29 @@
-﻿
+﻿@model Feature
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Öne Çıkan";
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
-<h1>Index</h1>
+<div class="card-header border-0">
+	<h3 class="mb-0">Öne Çıkan Sayfası Güncelleme</h3>
+</div>
+<br />
+<form method="post">
+	<div>
+		<input asp-for="FeatureID" hidden />
+		<div class="mb-3">
+			<label asp-for="Header" class="form-label"><strong>Başlık</strong></label>
+			<input asp-for="Header" class="form-control" />
+		</div>
+		<div class="mb-3">
+			<label asp-for="Name" class="control-label"><strong>İsim</strong></label>
+			<input asp-for="Name" class="form-control" />
+		</div>
+		<div class="mb-3">
+			<label asp-for="Title" class="control-label"><strong>Pozisyon</strong></label>
+			<input asp-for="Title" class="form-control" />
+		</div>
+		<button class="btn btn-success" type="submit" asp-action="Index" asp-controller="Feature">Güncelle</button>
+	</div>	
+</form>
 

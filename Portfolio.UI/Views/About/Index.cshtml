@@ -1,0 +1,49 @@
+﻿@model About
+@{
+    ViewData["Title"] = "Hakkımda";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="card-header border-0">
+	<h3 class="mb-0">Hakkımda Sayfası Güncelleme</h3>
+</div>
+<br />
+<form method="post">
+	<div>
+		<input asp-for="AboutID" hidden />
+		<div class="mb-3">
+			<label asp-for="Title" class="form-label"><strong>Başlık</strong></label>
+			<input asp-for="Title" class="form-control" />
+		</div>
+		<div class="mb-3">
+			<label asp-for="Description" class="control-label"><strong>Açıklama</strong></label>
+			<textarea asp-for="Description" class="form-control"></textarea>
+		</div>
+		<div class="mb-3">
+			<label asp-for="Age" class="control-label"><strong>Yaş</strong></label>
+			<input asp-for="Age" class="form-control" />
+		</div>
+		<div class="mb-3">
+			<label asp-for="Mail" class="control-label"><strong>Mail</strong></label>
+			<input asp-for="Mail" class="form-control" />
+		</div>
+		<div class="mb-3">
+			<label asp-for="Phone" class="control-label"><strong>Telefon</strong></label>
+			<input asp-for="Phone" class="form-control" />
+		</div>
+		<div class="mb-3">
+			<label asp-for="Address" class="control-label"><strong>Adres</strong></label>
+			<input asp-for="Address" class="form-control" />
+		</div>
+		<div class="mb-3">
+			<label asp-for="Status" class="control-label"><strong>Durum</strong></label>
+			<input asp-for="Status" class="form-control" />
+		</div>
+		<div class="mb-3">
+			<label asp-for="ImageUrl" class="control-label"><strong>Resim</strong></label>
+			<input asp-for="ImageUrl" class="form-control" />
+		</div>
+		<button class="btn btn-success" type="submit" asp-action="Index" asp-controller="About">Güncelle</button>
+	</div>	
+</form>
+
